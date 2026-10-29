@@ -1,0 +1,36 @@
+# Environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+# Python/editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.obsidian/
+# Private data, downloaded models, experiment output
+models/
+checkpoints/
+outputs/
+data/raw/
+data/private/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.bin
+*.onnx
+*.log
+stage1_output/
+run_*/
+continuous/
+interrupted/
+resumed/
